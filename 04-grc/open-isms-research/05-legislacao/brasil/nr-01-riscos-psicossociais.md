@@ -22,8 +22,8 @@ Separadamente, a organização pode ter uma obrigação trabalhista de considera
 
 | Campo | Classificação |
 |---|---|
-| Fonte externa | Norma Regulamentadora nº 1 — capítulo 1.5 |
-| Norma analisada | ISO/IEC 27001 — Sistema de Gestão de Segurança da Informação |
+| Fonte externa | Norma Regulamentadora nº 1 - capítulo 1.5 |
+| Norma analisada | ISO/IEC 27001 - Sistema de Gestão de Segurança da Informação |
 | Possíveis requisitos relacionados | Cláusulas 4.1, 4.2 e 6.1.1; eventualmente 7.2, 7.3 e 7.4 |
 | Possível controle relacionado | Controle 5.31, somente quando a obrigação estiver relacionada à segurança da informação |
 | Assunto | contexto, partes interessadas, riscos e oportunidades do sistema de gestão, competência, conscientização, comunicação e requisitos legais |
@@ -36,8 +36,8 @@ Separadamente, a organização pode ter uma obrigação trabalhista de considera
 |---|---|
 | AEP | Avaliação Ergonômica Preliminar |
 | GRO | Gerenciamento de Riscos Ocupacionais |
-| IEC | International Electrotechnical Commission — Comissão Eletrotécnica Internacional |
-| ISO | International Organization for Standardization — Organização Internacional de Normalização |
+| IEC | International Electrotechnical Commission - Comissão Eletrotécnica Internacional |
+| ISO | International Organization for Standardization - Organização Internacional de Normalização |
 | MTE | Ministério do Trabalho e Emprego |
 | NR | Norma Regulamentadora |
 | PGR | Programa de Gerenciamento de Riscos |
@@ -83,7 +83,7 @@ De acordo com o [Manual de interpretação e aplicação do capítulo 1.5 da NR-
 6. revisar a avaliação quando ocorrerem mudanças relevantes ou quando as medidas forem inadequadas;
 7. manter registros compatíveis com o processo adotado.
 
-As orientações oficiais também associam a análise à Avaliação Ergonômica Preliminar prevista na [Norma Regulamentadora nº 17 — Ergonomia](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadoras-vigentes/nr-17-atualizada-2023.pdf).
+As orientações oficiais também associam a análise à Avaliação Ergonômica Preliminar prevista na [Norma Regulamentadora nº 17 - Ergonomia](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadoras-vigentes/nr-17-atualizada-2023.pdf).
 
 A organização define os métodos adequados à sua realidade. A NR-1 não estabelece um questionário único, uma ferramenta única ou a contratação obrigatória de um psicólogo como resposta universal.
 
@@ -101,7 +101,7 @@ A [ISO/IEC 27001](https://www.iso.org/standard/27001) especifica requisitos para
 
 Seu objetivo é proteger a confidencialidade, a integridade e a disponibilidade da informação por meio de um sistema de gestão baseado em riscos. A norma não substitui um sistema de gestão de Segurança e Saúde no Trabalho.
 
-### Cláusula 4.1 — contexto da organização
+### Cláusula 4.1 - contexto da organização
 
 A organização deve determinar questões internas e externas relevantes para sua finalidade e que afetem sua capacidade de alcançar os resultados pretendidos do Sistema de Gestão de Segurança da Informação.
 
@@ -116,13 +116,13 @@ Fatores psicossociais podem entrar no contexto quando, por exemplo:
 
 Mesmo nesses exemplos, é necessário demonstrar relevância. A ISO/IEC 27001 não manda listar todo risco trabalhista na análise de contexto.
 
-### Cláusula 4.2 — partes interessadas
+### Cláusula 4.2 - partes interessadas
 
 A organização deve identificar as partes interessadas relevantes para o Sistema de Gestão de Segurança da Informação, seus requisitos relevantes e quais requisitos serão tratados pelo sistema.
 
 Trabalhadores e autoridades públicas podem ser partes interessadas. Porém, somente os requisitos relevantes ao Sistema de Gestão de Segurança da Informação precisam ser tratados como requisitos do sistema.
 
-### Cláusula 6.1.1 — riscos e oportunidades do sistema de gestão
+### Cláusula 6.1.1 - riscos e oportunidades do sistema de gestão
 
 Essa cláusula trata dos riscos e oportunidades que podem afetar os resultados pretendidos do Sistema de Gestão de Segurança da Informação. Ela não deve ser confundida com a avaliação de riscos de segurança da informação das cláusulas 6.1.2 e 6.1.3 nem com o Gerenciamento de Riscos Ocupacionais da NR-1.
 
@@ -132,13 +132,13 @@ Um fator psicossocial pode repercutir no planejamento do sistema, mas isso depen
 
 Pode existir relação com:
 
-- **7.2 — competência:** capacidade necessária para executar atividades que afetam o sistema;
-- **7.3 — conscientização:** entendimento de responsabilidades e consequências;
-- **7.4 — comunicação:** definição do que, quando, com quem e como comunicar.
+- **7.2 - competência:** capacidade necessária para executar atividades que afetam o sistema;
+- **7.3 - conscientização:** entendimento de responsabilidades e consequências;
+- **7.4 - comunicação:** definição do que, quando, com quem e como comunicar.
 
 Essa relação também é circunstancial. As cláusulas não criam um programa de saúde mental.
 
-### Controle 5.31 — requisitos legais, estatutários, regulatórios e contratuais
+### Controle 5.31 - requisitos legais, estatutários, regulatórios e contratuais
 
 O controle 5.31 trata dos requisitos relacionados à segurança da informação. Ele não converte automaticamente toda legislação trabalhista, tributária, ambiental ou sanitária em requisito do Sistema de Gestão de Segurança da Informação.
 
@@ -148,7 +148,7 @@ A NR-1 pode aparecer no processo corporativo mais amplo de requisitos legais. Pa
 
 Você informou que registrou fatores climáticos e outros temas no contexto. Isso está coerente com a [Emenda 1:2024 da ISO/IEC 27001](https://www.iso.org/obp/ui), que acrescentou à cláusula 4.1 uma determinação expressa para a organização avaliar se a mudança climática é uma questão relevante. A cláusula 4.2 também passou a observar que partes interessadas relevantes podem possuir requisitos relacionados ao clima.
 
-A [International Accreditation Forum — Fórum Internacional de Acreditação](https://iaf.nu/en/news/iaf-and-iso-publish-joint-communique/) esclarece que o organismo de certificação deve confirmar se a mudança climática foi considerada. Se a organização concluir que não é relevante, o auditor pode avaliar a consistência dessa conclusão.
+A [International Accreditation Forum - Fórum Internacional de Acreditação](https://iaf.nu/en/news/iaf-and-iso-publish-joint-communique/) esclarece que o organismo de certificação deve confirmar se a mudança climática foi considerada. Se a organização concluir que não é relevante, o auditor pode avaliar a consistência dessa conclusão.
 
 Não existe inclusão equivalente na ISO/IEC 27001 determinando expressamente que fatores psicossociais sejam analisados. Portanto:
 
@@ -162,23 +162,23 @@ Registrar fatores climáticos não cria obrigação de colocar automaticamente a
 
 ## O auditor fez certo em cobrar?
 
-### Situação 1 — o auditor fez uma pergunta de verificação
+### Situação 1 - o auditor fez uma pergunta de verificação
 
 **Sim, a pergunta pode ser legítima.** O auditor pode investigar se a organização identifica requisitos legais e questões relevantes. Fazer a pergunta não significa que exista não conformidade.
 
-### Situação 2 — o auditor recomendou avaliar a relevância
+### Situação 2 - o auditor recomendou avaliar a relevância
 
 **Pode ser uma observação razoável**, especialmente se houver sobrecarga, pressão, rotatividade, falta de pessoal, incidentes humanos ou outros sinais com impacto potencial no Sistema de Gestão de Segurança da Informação.
 
-### Situação 3 — o auditor exigiu que a NR-1 aparecesse obrigatoriamente na matriz de contexto
+### Situação 3 - o auditor exigiu que a NR-1 aparecesse obrigatoriamente na matriz de contexto
 
 **Essa exigência não decorre automaticamente da ISO/IEC 27001.** A norma exige resultados e determinações pertinentes, mas não obriga um documento chamado “matriz de contexto” nem a inclusão indiscriminada de todas as leis.
 
-### Situação 4 — o auditor registrou não conformidade da ISO/IEC 27001 apenas porque a NR-1 não estava no contexto
+### Situação 4 - o auditor registrou não conformidade da ISO/IEC 27001 apenas porque a NR-1 não estava no contexto
 
 **Com as informações disponíveis, a fundamentação seria insuficiente.** Seria necessário indicar o requisito da ISO/IEC 27001, demonstrar a relevância para o sistema e apresentar evidência objetiva do não atendimento.
 
-### Situação 5 — a organização não gerenciava fatores psicossociais apesar de estar obrigada pela NR-1
+### Situação 5 - a organização não gerenciava fatores psicossociais apesar de estar obrigada pela NR-1
 
 Nesse caso pode existir **uma deficiência legal ou de Segurança e Saúde no Trabalho**, ainda que não exista automaticamente uma não conformidade da ISO/IEC 27001. A conclusão deverá ser feita por profissional competente e dentro do critério de avaliação apropriado.
 
@@ -249,11 +249,11 @@ Esta nota não substitui o texto vigente das Normas Regulamentadoras, a atuaçã
 3. BRASIL. Ministério do Trabalho e Emprego. **Manual de interpretação e aplicação do capítulo 1.5 da NR-1**. 2026. Disponível em: https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/manuais-e-publicacoes/2026/manual_gro_pgr_da_nr_1.pdf. Acesso em: 20 ago. 2026.
 4. BRASIL. Ministério do Trabalho e Emprego. **Perguntas e respostas sobre o capítulo 1.5 da NR-1**. 2026. Disponível em: https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/manuais-e-publicacoes/2026/perguntas-e-respostas-gro-pgr-maio-2026. Acesso em: 20 ago. 2026.
 5. BRASIL. Ministério do Trabalho e Emprego. **Guia de informações sobre os fatores de risco psicossociais relacionados ao trabalho**. 2025. Disponível em: https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadoras-vigentes/guia-nr-01-revisado.pdf. Acesso em: 20 ago. 2026.
-6. BRASIL. Ministério do Trabalho e Emprego. **Norma Regulamentadora nº 17 — Ergonomia**. Disponível em: https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadoras-vigentes/nr-17-atualizada-2023.pdf. Acesso em: 20 ago. 2026.
-7. ISO. **ISO/IEC 27001:2022 — Information security management systems — Requirements**. Disponível em: https://www.iso.org/standard/27001. Acesso em: 20 ago. 2026.
-8. ISO. **ISO/IEC 27001:2022/Amd 1:2024 — Climate action changes**. Disponível em: https://www.iso.org/obp/ui. Acesso em: 20 ago. 2026.
+6. BRASIL. Ministério do Trabalho e Emprego. **Norma Regulamentadora nº 17 - Ergonomia**. Disponível em: https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadoras-vigentes/nr-17-atualizada-2023.pdf. Acesso em: 20 ago. 2026.
+7. ISO. **ISO/IEC 27001:2022 - Information security management systems - Requirements**. Disponível em: https://www.iso.org/standard/27001. Acesso em: 20 ago. 2026.
+8. ISO. **ISO/IEC 27001:2022/Amd 1:2024 - Climate action changes**. Disponível em: https://www.iso.org/obp/ui. Acesso em: 20 ago. 2026.
 9. INTERNATIONAL ACCREDITATION FORUM. **IAF and ISO publish joint communiqué**. 23 fev. 2024. Disponível em: https://iaf.nu/en/news/iaf-and-iso-publish-joint-communique/. Acesso em: 20 ago. 2026.
-10. ISO. **ISO/IEC 17021-1:2015 — Requirements for bodies providing audit and certification of management systems**. Disponível em: https://www.iso.org/obp/ui. Acesso em: 20 ago. 2026.
+10. ISO. **ISO/IEC 17021-1:2015 - Requirements for bodies providing audit and certification of management systems**. Disponível em: https://www.iso.org/obp/ui. Acesso em: 20 ago. 2026.
 
 ## Histórico
 
