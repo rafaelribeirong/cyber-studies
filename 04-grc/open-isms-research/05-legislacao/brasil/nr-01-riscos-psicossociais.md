@@ -1,7 +1,7 @@
 # NR-1 e fatores de risco psicossociais relacionados ao trabalho
 
 **Status:** pesquisa em desenvolvimento  
-**Versão:** 0.4  
+**Versão:** 0.5  
 **Última revisão:** 20 de agosto de 2026  
 **Autor:** Rafael Ribeiro
 
@@ -224,17 +224,6 @@ Exemplos, sem constituir lista universal:
 
 Palestras, canais de apoio, pesquisas de clima e atendimento psicológico podem compor ações complementares, mas não demonstram isoladamente que as fontes ocupacionais do risco foram identificadas e tratadas.
 
-## Perguntas para validar uma constatação de auditoria
-
-1. Qual era exatamente o escopo e o critério da auditoria?
-2. Qual requisito da ISO/IEC 27001 foi citado?
-3. A constatação tratava da NR-1 ou do efeito do tema sobre o Sistema de Gestão de Segurança da Informação?
-4. Qual evidência demonstrava a relevância para os resultados pretendidos do sistema?
-5. A organização havia concluído que o tema não era relevante? Essa conclusão foi avaliada?
-6. O auditor exigiu um resultado ou um documento específico não determinado pela norma?
-7. A constatação foi classificada como observação, não conformidade menor ou não conformidade maior?
-8. A classificação estava sustentada pela extensão e pelo impacto da falha?
-
 ## Limitações
 
 Esta nota não substitui o texto vigente das Normas Regulamentadoras, a atuação de profissional de Segurança e Saúde no Trabalho nem aconselhamento jurídico. A conclusão sobre uma constatação específica depende do relatório de auditoria, do escopo, do critério citado e das evidências disponíveis.
@@ -258,3 +247,4 @@ Esta nota não substitui o texto vigente das Normas Regulamentadoras, a atuaçã
 | 0.2 | 20/08/2026 | Inclusão de referência cruzada por norma, item e assunto |
 | 0.3 | 20/08/2026 | Expansão das siglas, links contextuais e análise da cobrança em auditoria |
 | 0.4 | 20/08/2026 | Remoção de referências conversacionais e delimitação objetiva de quando a NR-1 deve ser considerada no SGSI |
+| 0.5 | 20/08/2026 | Remoção do questionário de validação de constatações de auditoria |
