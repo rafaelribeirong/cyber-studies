@@ -1,14 +1,20 @@
 # Família ISO/IEC 27000
 
-Esta seção organizará as normas por função, não apenas por numeração.
+Cada norma terá uma pasta própria. Isso preserva a estrutura original de cada documento e permite ampliar o projeto sem misturar requisitos, controles e orientações.
 
-| Grupo | Exemplos | Finalidade geral |
+## Normas
+
+| Norma | Papel no projeto | Status |
 |---|---|---|
-| Vocabulário e requisitos | 27000, 27001 | conceitos e requisitos do SGSI |
-| Controles e implementação | 27002, 27017, 27018 | orientação e contextos específicos |
-| Riscos e medição | 27005, 27004 | riscos e avaliação de desempenho |
-| Auditoria e certificação | 27006-1, 27007, 27008 | certificação e auditoria |
-| Incidentes e continuidade | 27035, 27031 | resposta e prontidão de TIC |
-| Privacidade | 27701 e relacionadas | gestão de informações de privacidade |
+| [ISO/IEC 27001](iso-iec-27001/README.md) | requisitos do SGSI e Anexo A | Estrutura criada |
+| ISO/IEC 27002 | orientações para controles | Planejada |
+| ISO/IEC 27005 | gestão de riscos de segurança da informação | Planejada |
+| ISO/IEC 27004 | monitoramento, medição, análise e avaliação | Planejada |
+| ISO/IEC 27007 | auditoria de SGSI | Planejada |
+| ISO/IEC 27008 | avaliação de controles | Planejada |
+| ISO/IEC 27017 | controles para serviços em nuvem | Planejada |
+| ISO/IEC 27018 | proteção de dados pessoais em nuvem pública | Planejada |
+| ISO/IEC 27035 | gestão de incidentes | Planejada |
+| ISO/IEC 27701 | sistema de gestão de informações de privacidade | Planejada |
 
-A edição e o título oficial de cada documento serão confirmados antes da análise. Normas externas à família, como ISO 22301, ISO 31000 e ISO 45001, poderão aparecer como referências complementares, sem serem apresentadas como parte da série 27000.
+A edição, o título oficial e a situação de cada documento serão confirmados em fonte confiável antes da criação de conteúdo analítico. As pastas serão abertas somente quando houver pesquisa real.

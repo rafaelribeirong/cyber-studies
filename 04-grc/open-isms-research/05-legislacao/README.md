@@ -1,12 +1,15 @@
 # Legislação, regulação e contratos
 
-Esta seção analisa obrigações externas potencialmente relacionadas à governança, às pessoas, à tecnologia e ao SGSI.
+Esta seção mantém um índice transversal de obrigações externas. Cada análise deve indicar expressamente a norma estudada, o item relacionado, o assunto e a natureza da conexão.
 
-Uma fonte só será ligada à ISO/IEC 27001 quando essa relação puder ser demonstrada. A simples existência de uma lei ou regulamento não significa que ela se aplique a toda organização nem que corresponda diretamente a um controle do Anexo A.
+## Índice
 
-## Brasil
+| Fonte externa | Norma relacionada | Item | Assunto | Relação |
+|---|---|---|---|---|
+| [NR-1 — riscos psicossociais](brasil/nr-01-riscos-psicossociais.md) | ISO/IEC 27001 | Cláusulas 4.1, 4.2 e 6.1; possível relação com 7.2, 7.3 e 7.4 | contexto, partes interessadas, riscos, competência, conscientização e comunicação | Contextual e condicionada |
+| [NR-1 — riscos psicossociais](brasil/nr-01-riscos-psicossociais.md) | ISO/IEC 27001 | Controle 5.31 | requisitos legais relacionados à segurança da informação | Somente quando a conexão com segurança da informação for demonstrada |
 
-- [NR-1 e fatores de risco psicossociais relacionados ao trabalho](brasil/nr-01-riscos-psicossociais.md)
+A simples existência de uma lei ou regulamento não significa que ela se aplique a toda organização nem que corresponda diretamente a um requisito ou controle.
 
 ## Perguntas de aplicabilidade
 
@@ -16,4 +19,4 @@ Uma fonte só será ligada à ISO/IEC 27001 quando essa relação puder ser demo
 - Há dispensa, exceção ou transição?
 - Qual área é responsável?
 - Qual documento ou registro comprova atendimento?
-- Existe relação direta, indireta ou nenhuma relação com o SGSI?
+- Existe relação direta, indireta, contextual ou nenhuma relação com a norma analisada?

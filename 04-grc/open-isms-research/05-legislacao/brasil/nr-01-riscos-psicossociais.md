@@ -1,9 +1,20 @@
 # NR-1 e fatores de risco psicossociais relacionados ao trabalho
 
 **Status:** pesquisa inicial  
-**Versão:** 0.1  
+**Versão:** 0.2  
 **Última revisão:** 20 de agosto de 2026  
 **Autor:** Rafael Ribeiro
+
+## Referência cruzada
+
+| Campo | Classificação |
+|---|---|
+| Fonte externa | NR-1 — capítulo 1.5 |
+| Norma analisada | ISO/IEC 27001 |
+| Itens relacionados | Cláusulas 4.1, 4.2 e 6.1; possível relação com 7.2, 7.3 e 7.4 |
+| Controle relacionado | 5.31, somente quando houver relação demonstrável com segurança da informação |
+| Assunto | contexto, partes interessadas, riscos, competência, conscientização, comunicação e obrigações legais |
+| Tipo de relação | Contextual e condicionada; não é requisito automático da ISO/IEC 27001 |
 
 ## Pergunta
 
@@ -29,9 +40,9 @@ A conclusão de aplicabilidade exige confirmar a situação concreta da organiza
 
 ## Relação com a ISO/IEC 27001
 
-A relação é **contextual e condicionada**, não automática.
+A relação é contextual e condicionada, não automática.
 
-A NR-1 pode ser considerada na análise de contexto, partes interessadas, riscos, recursos, competência, conscientização e comunicação quando seus efeitos forem relevantes para os resultados pretendidos do SGSI. Pode também compor o processo corporativo de acompanhamento de obrigações legais.
+A NR-1 pode ser considerada nas cláusulas 4.1 e 4.2 quando o ambiente de trabalho e as obrigações das partes interessadas forem relevantes ao SGSI. Pode repercutir no planejamento da cláusula 6.1 e, conforme o caso, em competência, conscientização e comunicação nas cláusulas 7.2, 7.3 e 7.4.
 
 Isso não significa que:
 
@@ -40,7 +51,7 @@ Isso não significa que:
 - um auditor de SGSI possa emitir uma não conformidade apenas citando a NR-1 sem demonstrar o critério aplicável ao escopo auditado;
 - a equipe de segurança da informação deva substituir profissionais de SST.
 
-O controle 5.31 é pertinente quando requisitos legais, regulatórios ou contratuais relacionados à segurança da informação precisam ser identificados, documentados e mantidos atualizados. A conexão com a NR-1 deve, portanto, ser demonstrada no caso concreto.
+O controle 5.31 é pertinente quando requisitos legais, regulatórios ou contratuais relacionados à segurança da informação precisam ser identificados, documentados e mantidos atualizados. A conexão com a NR-1 deve ser demonstrada no caso concreto.
 
 ## Evidências possíveis no contexto de SST
 
@@ -82,3 +93,4 @@ Esta nota não substitui o texto vigente da NR-1, orientação de SST nem aconse
 | Versão | Data | Alteração |
 |---|---|---|
 | 0.1 | 20/08/2026 | Estrutura inicial e delimitação da relação com o SGSI |
+| 0.2 | 20/08/2026 | Inclusão de referência cruzada por norma, item e assunto |
