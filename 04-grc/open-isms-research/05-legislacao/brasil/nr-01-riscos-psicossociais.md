@@ -243,8 +243,8 @@ Esta nota não substitui o texto vigente das Normas Regulamentadoras, a atuaçã
 
 | Versão | Data | Alteração |
 |---|---|---|
-| 0.1 | 20/08/2026 | Estrutura inicial e delimitação da relação com o Sistema de Gestão de Segurança da Informação |
-| 0.2 | 20/08/2026 | Inclusão de referência cruzada por norma, item e assunto |
-| 0.3 | 20/08/2026 | Expansão das siglas, links contextuais e análise da cobrança em auditoria |
-| 0.4 | 20/08/2026 | Remoção de referências conversacionais e delimitação objetiva de quando a NR-1 deve ser considerada no SGSI |
-| 0.5 | 20/08/2026 | Remoção do questionário de validação de constatações de auditoria |
+| 0.1 | 20/08/2026 | Estrutura inicial |
+| 0.2 | 20/08/2026 | Melhoria nas referências |
+| 0.3 | 20/08/2026 | Inclusão de links e siglas |
+| 0.4 | 20/08/2026 | Correção de referências |
+| 0.5 | 20/08/2026 | Melhoria na leitura |
