@@ -12,14 +12,12 @@ Foco inicial em IDOR/BOLA, autorização horizontal e vertical, isolamento multi
 
 ### GRC e interpretação normativa
 
-O [Open ISMS Research](04-grc/open-isms-research/README.md) é uma base aberta e progressiva para estudar sistemas de gestão, família ISO/IEC 27000, requisitos, controles, legislação, evidências e auditoria com rastreabilidade das fontes.
+Pesquisas sobre sistemas de gestão, família ISO/IEC 27000, requisitos, controles, legislação, evidências e auditoria com rastreabilidade das fontes.
 
 ## Publicações
 
-- [Roadmap de pesquisa em autorização](00-roadmap/foco-autorizacao.md)
 - [Segurança da Informação e Cibersegurança](01-fundamentos/seguranca-da-informacao-e-ciberseguranca.md)
 - [Fundamentos de falhas de autorização em aplicações e APIs](02-web-api-security/autorizacao/README.md)
-- [Open ISMS Research](04-grc/open-isms-research/README.md)
 - [NR-1 e fatores de risco psicossociais relacionados ao trabalho](04-grc/open-isms-research/05-legislacao/brasil/nr-01-riscos-psicossociais.md)
 
 ## Como as pesquisas serão documentadas
@@ -30,7 +28,6 @@ Cada publicação deve apresentar contexto, pergunta de pesquisa, fontes, interp
 
 ```text
 cyber-studies/
-├── 00-roadmap/
 ├── 01-fundamentos/
 ├── 02-web-api-security/
 ├── 03-blue-team/
