@@ -1,7 +1,7 @@
 # NR-1 e fatores de risco psicossociais relacionados ao trabalho
 
 **Status:** pesquisa em desenvolvimento  
-**Versão:** 0.3  
+**Versão:** 0.4  
 **Última revisão:** 20 de agosto de 2026  
 **Autor:** Rafael Ribeiro
 
@@ -144,23 +144,23 @@ O controle 5.31 trata dos requisitos relacionados à segurança da informação.
 
 A NR-1 pode aparecer no processo corporativo mais amplo de requisitos legais. Para ser vinculada ao controle 5.31 em uma auditoria da ISO/IEC 27001, deve existir relação demonstrável com segurança da informação.
 
-## Fatores climáticos e NR-1 não são a mesma situação
+## A NR-1 deve ser considerada no SGSI?
 
-Você informou que registrou fatores climáticos e outros temas no contexto. Isso está coerente com a [Emenda 1:2024 da ISO/IEC 27001](https://www.iso.org/obp/ui), que acrescentou à cláusula 4.1 uma determinação expressa para a organização avaliar se a mudança climática é uma questão relevante. A cláusula 4.2 também passou a observar que partes interessadas relevantes podem possuir requisitos relacionados ao clima.
+A NR-1 deve ser considerada inicialmente no processo corporativo de identificação e avaliação de requisitos legais aplicáveis. A responsabilidade primária por seu cumprimento permanece no campo de Segurança e Saúde no Trabalho.
 
-A [International Accreditation Forum - Fórum Internacional de Acreditação](https://iaf.nu/en/news/iaf-and-iso-publish-joint-communique/) esclarece que o organismo de certificação deve confirmar se a mudança climática foi considerada. Se a organização concluir que não é relevante, o auditor pode avaliar a consistência dessa conclusão.
+Sua inclusão no Sistema de Gestão de Segurança da Informação depende de uma segunda análise: verificar se a obrigação, o risco ou seus efeitos são relevantes para a segurança da informação e para os resultados pretendidos do sistema.
 
-Não existe inclusão equivalente na ISO/IEC 27001 determinando expressamente que fatores psicossociais sejam analisados. Portanto:
+| Situação identificada | Tratamento recomendado no SGSI |
+|---|---|
+| A organização está sujeita à NR-1, mas não foi identificado efeito relevante sobre a segurança da informação | registrar e tratar no processo de Segurança e Saúde no Trabalho; não é obrigatória a inclusão no contexto do SGSI |
+| Fatores psicossociais podem aumentar erros, incidentes, indisponibilidade, perda de conhecimento ou descumprimento de procedimentos | considerar a questão no contexto ou no planejamento do SGSI, de forma proporcional à relevância |
+| A organização mantém dados e registros de saúde ocupacional | avaliar requisitos de confidencialidade, integridade, disponibilidade, retenção e controle de acesso |
+| O tema não foi avaliado | realizar a análise de aplicabilidade antes de concluir pela inclusão ou exclusão |
+| O auditor exige a inclusão sem demonstrar relação com o SGSI | solicitar o requisito, o critério e a evidência que fundamentam a cobrança |
 
-| Tema | Origem da consideração | Tratamento na ISO/IEC 27001 |
-|---|---|---|
-| Mudança climática | Emenda 1:2024 da própria norma | deve ser considerada e classificada como relevante ou não |
-| Fatores psicossociais | NR-1 e NR-17 | entram no sistema somente quando sua relevância para o Sistema de Gestão de Segurança da Informação for demonstrada |
-| Outros fatores internos ou externos | cláusula 4.1 | devem ser considerados quando relevantes aos resultados pretendidos do sistema |
+Portanto, a resposta não é simplesmente “a NR-1 deve entrar” ou “a NR-1 não deve entrar”. A organização deve conhecer e avaliar a obrigação. Sua incorporação ao SGSI ocorre somente quando houver relação demonstrável com segurança da informação.
 
-Registrar fatores climáticos não cria obrigação de colocar automaticamente a NR-1 na mesma matriz. O critério de inclusão é diferente.
-
-## O auditor fez certo em cobrar?
+## Avaliação da cobrança em uma auditoria ISO/IEC 27001
 
 ### Situação 1 - o auditor fez uma pergunta de verificação
 
@@ -182,13 +182,11 @@ Registrar fatores climáticos não cria obrigação de colocar automaticamente a
 
 Nesse caso pode existir **uma deficiência legal ou de Segurança e Saúde no Trabalho**, ainda que não exista automaticamente uma não conformidade da ISO/IEC 27001. A conclusão deverá ser feita por profissional competente e dentro do critério de avaliação apropriado.
 
-### Conclusão sobre o caso relatado
+### Conclusão técnica
 
-Considerando que a auditoria era da ISO/IEC 27001 e que a exigência teria sido a presença da NR-1 ou dos fatores psicossociais no contexto, minha conclusão é:
+Em uma auditoria ISO/IEC 27001, é legítimo verificar se a organização avaliou requisitos legais e questões potencialmente relevantes. Entretanto, a ausência da NR-1 ou dos fatores psicossociais na matriz de contexto não constitui automaticamente uma não conformidade.
 
-> O auditor podia perguntar e recomendar que a relevância fosse avaliada. Entretanto, não deveria tratar a ausência na matriz de contexto como não conformidade automática da ISO/IEC 27001 sem demonstrar a relação com os resultados pretendidos do Sistema de Gestão de Segurança da Informação.
-
-Isso não elimina a necessidade de a empresa atender à NR-1 em seu processo próprio de Segurança e Saúde no Trabalho.
+Uma constatação exige a identificação do requisito aplicável, a demonstração da relevância para o Sistema de Gestão de Segurança da Informação e evidência objetiva do não atendimento. Essa conclusão não elimina a obrigação de tratar a NR-1 no processo apropriado de Segurança e Saúde no Trabalho.
 
 ## Como a organização pode tratar o tema sem misturar os sistemas
 
@@ -207,7 +205,6 @@ Exemplo de registro:
 |---|---|---|---|
 | NR-1, capítulo 1.5 | Recursos Humanos / Segurança e Saúde no Trabalho | Relevância a avaliar | fatores organizacionais podem afetar erros, incidentes, continuidade e retenção de conhecimento |
 | NR-17 | Recursos Humanos / Segurança e Saúde no Trabalho | Relevância a avaliar | condições ergonômicas podem afetar atividades críticas de segurança |
-| Emenda climática da ISO/IEC 27001 | Responsável pelo SGSI | Obrigatoriamente considerar | determinação expressa nas cláusulas 4.1 e 4.2 |
 
 ## Evidências possíveis da NR-1
 
@@ -251,9 +248,7 @@ Esta nota não substitui o texto vigente das Normas Regulamentadoras, a atuaçã
 5. BRASIL. Ministério do Trabalho e Emprego. **Guia de informações sobre os fatores de risco psicossociais relacionados ao trabalho**. 2025. Disponível em: https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadoras-vigentes/guia-nr-01-revisado.pdf. Acesso em: 20 ago. 2026.
 6. BRASIL. Ministério do Trabalho e Emprego. **Norma Regulamentadora nº 17 - Ergonomia**. Disponível em: https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadoras-vigentes/nr-17-atualizada-2023.pdf. Acesso em: 20 ago. 2026.
 7. ISO. **ISO/IEC 27001:2022 - Information security management systems - Requirements**. Disponível em: https://www.iso.org/standard/27001. Acesso em: 20 ago. 2026.
-8. ISO. **ISO/IEC 27001:2022/Amd 1:2024 - Climate action changes**. Disponível em: https://www.iso.org/obp/ui. Acesso em: 20 ago. 2026.
-9. INTERNATIONAL ACCREDITATION FORUM. **IAF and ISO publish joint communiqué**. 23 fev. 2024. Disponível em: https://iaf.nu/en/news/iaf-and-iso-publish-joint-communique/. Acesso em: 20 ago. 2026.
-10. ISO. **ISO/IEC 17021-1:2015 - Requirements for bodies providing audit and certification of management systems**. Disponível em: https://www.iso.org/obp/ui. Acesso em: 20 ago. 2026.
+8. ISO. **ISO/IEC 17021-1:2015 - Requirements for bodies providing audit and certification of management systems**. Disponível em: https://www.iso.org/obp/ui. Acesso em: 20 ago. 2026.
 
 ## Histórico
 
@@ -261,4 +256,5 @@ Esta nota não substitui o texto vigente das Normas Regulamentadoras, a atuaçã
 |---|---|---|
 | 0.1 | 20/08/2026 | Estrutura inicial e delimitação da relação com o Sistema de Gestão de Segurança da Informação |
 | 0.2 | 20/08/2026 | Inclusão de referência cruzada por norma, item e assunto |
-| 0.3 | 20/08/2026 | Expansão das siglas, links contextuais, análise de aplicabilidade, comparação com mudança climática e conclusão sobre a cobrança em auditoria |
+| 0.3 | 20/08/2026 | Expansão das siglas, links contextuais e análise da cobrança em auditoria |
+| 0.4 | 20/08/2026 | Remoção de referências conversacionais e delimitação objetiva de quando a NR-1 deve ser considerada no SGSI |
