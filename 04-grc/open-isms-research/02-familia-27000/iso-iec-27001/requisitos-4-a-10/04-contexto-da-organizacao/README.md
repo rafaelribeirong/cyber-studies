@@ -1,7 +1,7 @@
 # 4 - Contexto da organização
 
-**Status:** estrutura inicial  
-**Versão:** 0.1  
+**Status:** pesquisa em desenvolvimento  
+**Versão:** 0.2  
 **Última revisão:** 22 de agosto de 2026  
 **Autor:** Rafael Ribeiro
 
@@ -17,6 +17,10 @@ O requisito 4 estabelece a base do Sistema de Gestão de Segurança da Informaç
 | [4.2](4.2-partes-interessadas.md) | Compreensão das necessidades e expectativas das partes interessadas | Quem é relevante para o SGSI e quais requisitos precisam ser considerados? |
 | [4.3](4.3-escopo-do-sgsi.md) | Determinação do escopo do SGSI | Quais unidades, processos, tecnologias, informações e interfaces pertencem ao sistema? |
 | [4.4](4.4-sistema-de-gestao-de-seguranca-da-informacao.md) | Sistema de Gestão de Segurança da Informação | Como o SGSI será estabelecido, operado, mantido e melhorado? |
+
+## Guia prático
+
+O [guia para realizar uma análise de contexto](como-fazer-analise-de-contexto.md) apresenta o método completo, incluindo matriz de contexto, SWOT, PESTEL, critérios de relevância e exemplo preenchido.
 
 ## Relação entre os itens
 
@@ -37,15 +41,16 @@ Ao concluir o requisito 4, a organização deve ser capaz de demonstrar:
 
 ## Observação sobre documentação
 
-A ISO/IEC 27001 exige que o escopo esteja disponível como informação documentada. Para os itens 4.1 e 4.2, a organização precisa demonstrar os resultados alcançados, mas a norma não determina obrigatoriamente um documento chamado matriz de contexto ou matriz de partes interessadas.
+A ISO/IEC 27001 exige que o escopo esteja disponível como informação documentada. Para os itens 4.1 e 4.2, a organização precisa demonstrar os resultados alcançados, mas a norma não determina obrigatoriamente documentos chamados matriz de contexto ou matriz de partes interessadas.
 
 ## Fontes
 
-1. ISO. [ISO/IEC 27001:2022 - Information security management systems - Requirements](https://www.iso.org/standard/27001). Acesso em: 22 ago. 2026.
-2. ISO. [ISO/IEC 27001:2022 - Online Browsing Platform](https://www.iso.org/obp/ui/). Acesso em: 22 ago. 2026.
+1. ISO. [ISO/IEC 27001:2022 - página oficial](https://www.iso.org/standard/27001). Acesso em: 22 ago. 2026.
+2. ISO. [ISO/IEC 27001:2022 - consulta oficial](https://www.iso.org/obp/ui/). Acesso em: 22 ago. 2026.
 
 ## Histórico
 
 | Versão | Data | Alteração |
 |---|---|---|
 | 0.1 | 22/08/2026 | Estrutura inicial |
+| 0.2 | 22/08/2026 | Aprofundamento e inclusão do guia prático |
