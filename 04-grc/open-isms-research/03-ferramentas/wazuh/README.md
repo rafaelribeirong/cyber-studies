@@ -1,20 +1,31 @@
-# Wazuh — Laboratório, operação e conformidade
+# Wazuh — laboratório, operação e conformidade
 
 ## Objetivo
 
-Este diretório reúne estudos práticos sobre Wazuh com foco em:
+Esta área documenta um laboratório progressivo de Wazuh com foco em entender a plataforma na prática, registrar procedimentos reproduzíveis e relacionar capacidades técnicas com segurança da informação e sistemas de gestão.
 
-- implantação e administração da plataforma;
-- monitoramento e detecção;
-- hardening e vulnerabilidades;
-- resposta a eventos;
-- geração de evidências técnicas;
-- apoio a controles e processos relacionados à ISO/IEC 27001 e ISO/IEC 27701.
+A regra do projeto é simples:
 
-O objetivo é manter dois tipos de conteúdo:
+> entender → configurar → validar → registrar evidência → documentar → relacionar com controles, quando aplicável.
 
-1. **estudo técnico**, com testes, erros, troubleshooting e aprendizado;
-2. **guia reutilizável para clientes**, contendo apenas procedimentos já testados e validados.
+Sempre que o Dashboard oferecer a função necessária, o procedimento será documentado pelo **Wazuh Dashboard**. CLI, API e edição direta de arquivos serão usados quando a interface não oferecer o recurso, quando forem necessários para validação de baixo nível ou para troubleshooting.
+
+## Ambiente-base validado
+
+O laboratório inicial utiliza:
+
+- Wazuh 4.14.7;
+- OVA oficial;
+- Wazuh Manager;
+- Wazuh Indexer;
+- Wazuh Dashboard;
+- VirtualBox;
+- primeiro agente Windows 11.
+
+A documentação oficial da VM confirma que a OVA 4.14.7 inclui os componentes centrais pré-instalados e pode ser importada em VirtualBox ou outro hypervisor compatível com OVA.
+
+Referência:
+https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html
 
 ## Estrutura
 
@@ -27,59 +38,81 @@ wazuh/
 ├── 04-monitoramento/
 ├── 05-deteccao-e-resposta/
 ├── 06-administracao/
-├── 07-conformidade/
-└── 08-guias-para-clientes/
+└── 07-conformidade/
 ```
 
-## Padrão dos estudos
+## Estado atual
 
-Cada laboratório deve registrar, quando aplicável:
+| Área | Estado |
+|---|---|
+| Fundamentos iniciais | em andamento |
+| Implantação por OVA | validada |
+| Configuração-base do Manager | baseline inicial validada |
+| Agente Windows | instalado e ativo |
+| Grupos | validado |
+| Configuração centralizada (`agent.conf`) | validada |
+| Labels centralizadas | validadas |
+| Stats / buffer / keep alive | validação inicial concluída |
+| Monitoramento detalhado | próximo ciclo |
+| Detecção e resposta | futuro |
+| Conformidade | mapeamento inicial |
 
-1. objetivo;
-2. pré-requisitos;
-3. ambiente utilizado;
-4. procedimento executado;
-5. comandos e configurações;
-6. validação;
-7. resultado esperado;
-8. erros encontrados;
-9. troubleshooting;
-10. evidências geradas;
-11. relação com riscos e controles;
-12. referências oficiais.
+## Padrão de documentação
 
-## Padrão dos guias para clientes
-
-Os guias para clientes devem conter apenas procedimentos previamente testados no laboratório.
-
-Estrutura recomendada:
+Cada estudo deve registrar, quando aplicável:
 
 1. objetivo;
-2. aplicabilidade;
-3. pré-requisitos;
-4. procedimento;
-5. validação;
-6. resultado esperado;
-7. evidências;
-8. troubleshooting;
-9. rollback;
-10. referências;
-11. relação com ISO/IEC 27001 e ISO/IEC 27701, quando aplicável.
+2. conceito;
+3. por que o recurso existe;
+4. quando usar;
+5. pré-requisitos;
+6. caminho pelo Dashboard;
+7. configuração ou comando;
+8. validação;
+9. resultado esperado;
+10. riscos, limitações e impacto;
+11. troubleshooting;
+12. evidências;
+13. relação com controles, quando aplicável;
+14. referências oficiais.
+
+## Regra para evidências públicas
+
+Nunca publicar:
+
+- credenciais;
+- tokens;
+- chaves privadas;
+- certificados privados;
+- endereços IP internos reais;
+- nomes de host sensíveis;
+- números de série;
+- dados pessoais.
+
+Os exemplos públicos usam placeholders como:
+
+```text
+<WAZUH_SERVER_IP>
+<WAZUH_SERVER_FQDN>
+<AGENT_NAME>
+<GROUP_NAME>
+```
 
 ## Classificação de relação com controles
 
-Para evitar afirmar que uma ferramenta atende isoladamente a um requisito normativo, os mapeamentos devem usar uma das classificações abaixo:
+O projeto usa quatro classificações para evitar afirmar que uma ferramenta garante conformidade isoladamente:
 
-- **IMPLEMENTA** — a funcionalidade executa parte relevante de um controle técnico;
-- **APOIA** — a funcionalidade auxilia um processo maior;
-- **EVIDÊNCIA** — a funcionalidade produz registros ou informações úteis para comprovação;
-- **FORA DO ESCOPO** — o atendimento depende principalmente de processo, pessoas, contrato, política ou outra tecnologia.
+- **IMPLEMENTA** — executa parte relevante de um controle técnico;
+- **APOIA** — auxilia um processo maior;
+- **EVIDÊNCIA** — produz registros úteis para comprovação;
+- **FORA DO ESCOPO** — depende principalmente de processo, pessoas, contrato, política ou outra tecnologia.
 
 ## Referências principais
 
-- Documentação oficial do Wazuh: https://documentation.wazuh.com/current/
-- Release notes do Wazuh: https://documentation.wazuh.com/current/release-notes/index.html
-- ISO/IEC 27001
-- ISO/IEC 27701
+- Documentação oficial: https://documentation.wazuh.com/current/
+- Deployment options: https://documentation.wazuh.com/current/deployment-options/index.html
+- Agent administration: https://documentation.wazuh.com/current/user-manual/agent/agent-management/agent-administration.html
+- `ossec.conf`: https://documentation.wazuh.com/current/user-manual/reference/ossec-conf/index.html
+- Release notes 4.14.7: https://documentation.wazuh.com/current/release-notes/release-4-14-7.html
 
-> Este projeto não reproduz o conteúdo integral das normas ISO. Os mapeamentos representam análise técnica e devem ser validados contra cópias licenciadas das normas quando utilizados profissionalmente.
+> Os mapeamentos de ISO/IEC 27001 e ISO/IEC 27701 não reproduzem o conteúdo integral das normas. Devem ser validados contra cópias licenciadas das normas quando utilizados profissionalmente.

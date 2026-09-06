@@ -1,15 +1,26 @@
 # 06 — Administração
 
-Esta seção reunirá atividades administrativas da plataforma Wazuh.
+Esta seção reúne administração e operação da plataforma.
 
-Conteúdos previstos:
+## Conteúdos
 
+- configuração-base do Manager;
+- `ossec.conf`;
 - usuários e RBAC;
 - API;
+- certificados;
 - backup e restauração;
 - atualização;
 - retenção;
-- certificados;
-- configuração central;
+- archives;
+- cluster;
 - troubleshooting;
 - boas práticas operacionais.
+
+## Laboratórios concluídos
+
+- [Configuração-base do Wazuh Manager](configuracao-base-manager.md)
+
+## Referência principal
+
+https://documentation.wazuh.com/current/user-manual/reference/ossec-conf/index.html
