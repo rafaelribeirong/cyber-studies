@@ -84,7 +84,7 @@ Exemplos de capacidades suportadas:
 - Syscollector;
 - client buffer;
 - Osquery;
-- alguns parâmetros específicos de cliente.
+- alguns parâmetros de conexão suportados.
 
 Referência:
 https://documentation.wazuh.com/current/user-manual/reference/centralized-configuration.html
