@@ -22,6 +22,12 @@ Windows
 MSI 32/64 bits
 ```
 
+### Evidência — sistemas e pacotes disponíveis
+
+![Seleção de pacote para implantação do Wazuh Agent](imagens/07-deploy-new-agent-pacotes-suportados.svg)
+
+A mesma tela de implantação apresenta opções para Linux, Windows e macOS. Outros sistemas e arquiteturas suportados devem ser consultados na documentação oficial correspondente.
+
 ## 2. Server address
 
 O campo **Server address** deve receber o IP ou FQDN do servidor onde o Wazuh Manager está acessível pelo endpoint.
@@ -49,6 +55,12 @@ Wazuh Manager
 ```
 
 Em ambientes permanentes, prefira um endereço estável, como FQDN ou IP reservado/fixo.
+
+### Evidência — endereço do Manager e opções do agente
+
+![Campos Server address, Agent name e Group no deploy do agente](imagens/08-deploy-new-agent-endereco-e-opcoes.svg)
+
+O campo **Server address** identifica o Manager que receberá a comunicação do agente. O nome do agente e o grupo podem ser definidos no mesmo fluxo de implantação.
 
 ## 3. Agent name
 
@@ -89,6 +101,10 @@ msiexec.exe /i $env:TEMP\wazuh-agent.msi /q `
 
 Depois, inicie o serviço conforme orientado pelo Dashboard.
 
+### Evidência — serviço do Wazuh Agent iniciado
+
+![Serviço do Wazuh Agent iniciado no Windows](imagens/11-servico-wazuh-iniciado.svg)
+
 ## Instalação concluída não significa comunicação validada
 
 A mensagem de que o serviço do Wazuh foi iniciado prova apenas que o serviço Windows iniciou.
@@ -118,6 +134,8 @@ Version: Wazuh v4.14.7
 Group: windows-lab
 OS: Windows
 ```
+
+No laboratório, o endpoint foi registrado no grupo `windows-lab` e passou ao estado `active` após a comunicação com o Manager.
 
 ## Status que serão estudados
 
