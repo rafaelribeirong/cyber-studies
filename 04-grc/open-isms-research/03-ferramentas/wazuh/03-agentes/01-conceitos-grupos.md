@@ -59,10 +59,6 @@ Agents management
 → Add new group
 ```
 
-### Evidência — grupo `windows-lab` criado
-
-![Grupo windows-lab criado no Wazuh Dashboard](imagens/05-grupo-windows-lab-criado.svg)
-
 Grupos não são apenas organização visual. Cada grupo possui configuração compartilhada.
 
 No Manager:
@@ -104,8 +100,6 @@ No laboratório:
 3. o `agent.conf` de `windows-lab` foi alterado;
 4. o checksum de `windows-lab` mudou;
 5. isso confirmou que o Manager reconheceu uma configuração específica para o grupo.
-
-A alteração de checksum foi registrada no laboratório e é mostrada no estudo de configuração centralizada e labels.
 
 ## Múltiplos grupos
 

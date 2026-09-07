@@ -84,12 +84,6 @@ checksum default      ≠ checksum windows-lab
 
 Isso confirmou que o conteúdo compartilhado do grupo foi alterado.
 
-### Evidência — checksum diferente após alterar `agent.conf`
-
-![Checksum do grupo windows-lab alterado](imagens/20-checksum-grupo-windows-lab-alterado.svg)
-
-O checksum não prova sozinho que o endpoint já aplicou a configuração. Ele comprova que o Manager reconheceu uma mudança no conteúdo compartilhado do grupo. Por isso, a segunda validação deve ser feita no próprio agente.
-
 ## Validação 2 — agente
 
 Caminho:
@@ -109,27 +103,7 @@ platform = windows
 criticality = low
 ```
 
-### Evidência — labels recebidas pelo endpoint
-
-![Labels centralizadas aplicadas ao agente](imagens/21-labels-aplicadas-agente.svg)
-
 A configuração foi aplicada sem editar o endpoint manualmente.
-
-## O que este teste comprovou
-
-```text
-configuração criada no grupo
-        ↓
-Manager detectou a alteração
-        ↓
-checksum do grupo mudou
-        ↓
-configuração foi distribuída
-        ↓
-endpoint passou a exibir as labels
-```
-
-Esse teste demonstra, na prática, como uma configuração suportada pelo `agent.conf` pode ser administrada centralmente para todos os agentes pertencentes a um grupo.
 
 ## Observação
 
